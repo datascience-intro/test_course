@@ -1,0 +1,4 @@
+FROM sagemath/sagemath
+MAINTAINER Benny Avelin <benny.avelin@math.uu.se>
+RUN sudo apt update -y && sudo apt upgrade -y && sudo apt install -y man && sudo apt install -y vim
+CMD /bin/sh
