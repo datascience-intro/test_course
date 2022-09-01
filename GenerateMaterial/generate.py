@@ -1,4 +1,4 @@
-from AssignmentNotebook import IDSCourse
+from NotebookGrader import IDSCourse,DBCourse
 def checkPython():
     import sys
     print("Python version")
@@ -8,6 +8,6 @@ def checkPython():
     import sys
     print(sys.executable)
 
-course = IDSCourse()
+course = DBCourse()
 course.to_nb()
 #course.makeAssignmentNotebook(assignment_number = 5,notebook_type='problem_solution')
